@@ -54,6 +54,6 @@ public class Gato {
     public String toString() {
         return "Meu gato tem o nome " + nome +
                 ", cor dele é " + cor +
-                " e ele tem " + idade + " anos de idade.";
+                " e ele tem " + idade + " anos de idade. Ele gosta muito de leite";
     }
 }
