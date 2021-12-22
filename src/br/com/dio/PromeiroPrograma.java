@@ -6,13 +6,13 @@ import java.util.Objects;
 
 public class PromeiroPrograma {
     public static void main(String[] args) {
-        /*
+        
         String $ = "R$";
         int n1 = 5;
         int n2 = 12;
         System.out.println("A soma dos valores é " + $ + (n1 + n2) + ".");
         System.out.println("Maravilha esse Intellij");
-        */
+        
 
         Gato miau = new Gato("Bichano", "amarelo", 4);
         System.out.println(miau);
@@ -21,6 +21,7 @@ public class PromeiroPrograma {
         Livro obra = new Livro("Histórias de uma fronteira", "Elizabeth Torton", 295, 2011);
         System.out.println(obra.toString());
         System.out.println("edytei essa linha no eclipse inportando via git import");
+        // debuguei o codigo no Eclipse
     }
 
 public static class Livro {
