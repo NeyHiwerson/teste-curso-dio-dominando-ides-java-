@@ -20,6 +20,7 @@ public class PromeiroPrograma {
 
         Livro obra = new Livro("Histórias de uma fronteira", "Elizabeth Torton", 295, 2011);
         System.out.println(obra.toString());
+        System.out.println("edytei essa linha no eclipse inportando via git import");
     }
 
 public static class Livro {
